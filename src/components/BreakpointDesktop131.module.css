@@ -1,0 +1,112 @@
+.heading,
+.text {
+  align-self: stretch;
+}
+.heading {
+  position: relative;
+  line-height: 120%;
+}
+.text {
+  font-size: 18px;
+}
+.button,
+.text {
+  position: relative;
+  line-height: 150%;
+}
+.stylesecondarySmallfalse {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+}
+.iconChevronRight {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stylelinkSmallfalseDark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.actions,
+.content {
+  display: flex;
+  gap: 24px;
+}
+.actions {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 0 0;
+  font-size: 16px;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.logo2ColordarkIcon {
+  width: 140px;
+  position: relative;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo {
+  flex: 1;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+.content1,
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.row {
+  align-self: stretch;
+  flex-direction: row;
+}
+.content1 {
+  flex: 1;
+  flex-direction: column;
+}
+.breakpointDesktop,
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 80px;
+}
+.breakpointDesktop {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: Roboto;
+}

@@ -1,0 +1,97 @@
+.placeholderImageIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 356px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.heading {
+  position: relative;
+  line-height: 140%;
+}
+.heading,
+.text,
+.text1 {
+  align-self: stretch;
+}
+.text1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.tagOne {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.tag,
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tag {
+  background-color: #eee;
+  padding: 4px 8px;
+}
+.tags {
+  align-self: stretch;
+  padding: 16px 0 0;
+  gap: 8px;
+  font-size: 14px;
+}
+.button {
+  position: relative;
+  line-height: 150%;
+}
+.iconChevronRight {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stylelinkSmallfalseDark {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.actions {
+  align-self: stretch;
+  padding: 24px 0 0;
+  font-size: 16px;
+}
+.actions,
+.card,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  padding: 24px;
+}
+.card {
+  width: 634px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Roboto;
+}

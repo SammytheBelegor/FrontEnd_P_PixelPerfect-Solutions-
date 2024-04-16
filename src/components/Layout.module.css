@@ -1,0 +1,119 @@
+.subheading {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.heading,
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.text {
+  font-size: 18px;
+  line-height: 150%;
+}
+.content2,
+.sectionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content2 {
+  gap: 24px;
+  text-align: left;
+  font-size: 48px;
+}
+.sectionTitle {
+  gap: 16px;
+}
+.subheadingOne,
+.text1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.text1 {
+  font-size: 16px;
+  line-height: 150%;
+}
+.list,
+.listItem {
+  align-items: flex-start;
+}
+.listItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.list {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 8px 0;
+  gap: 24px;
+  text-align: left;
+  font-size: 20px;
+}
+.actions,
+.content,
+.content1,
+.list {
+  display: flex;
+  justify-content: flex-start;
+}
+.content1 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.actions,
+.content {
+  gap: 24px;
+}
+.actions {
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0 0;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.placeholderImageIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 640px;
+  object-fit: cover;
+}
+.container,
+.layout4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+.layout4 {
+  width: 1440px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}

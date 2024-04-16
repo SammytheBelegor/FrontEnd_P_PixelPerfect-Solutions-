@@ -1,0 +1,152 @@
+.subheading {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.heading,
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.text {
+  font-size: 18px;
+  line-height: 150%;
+}
+.content2,
+.sectionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content2 {
+  gap: 24px;
+  text-align: left;
+  font-size: 48px;
+}
+.sectionTitle {
+  gap: 16px;
+}
+.iconRelume {
+  width: 48px;
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.subheadingOne,
+.text1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.text1 {
+  font-size: 16px;
+  line-height: 150%;
+}
+.content1,
+.list,
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listItem {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}
+.content1,
+.list {
+  align-self: stretch;
+}
+.list {
+  flex-direction: row;
+  padding: 8px 0;
+  gap: 24px;
+  text-align: left;
+  font-size: 20px;
+}
+.content1 {
+  flex-direction: column;
+  gap: 32px;
+}
+.button {
+  position: relative;
+  line-height: 150%;
+}
+.stylesecondarySmallfalse {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+}
+.iconChevronRight {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stylelinkSmallfalseDark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.actions,
+.content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.actions {
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0 0;
+  text-align: left;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.placeholderImageIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 640px;
+  object-fit: cover;
+}
+.breakpointDesktop,
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+.breakpointDesktop {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}

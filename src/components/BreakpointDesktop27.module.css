@@ -1,0 +1,35 @@
+.heading {
+  position: relative;
+  line-height: 150%;
+}
+.logo2ColordarkIcon {
+  width: 200px;
+  position: relative;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.breakpointDesktop,
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.breakpointDesktop {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 80px 64px;
+  box-sizing: border-box;
+  gap: 48px;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  font-family: Roboto;
+}

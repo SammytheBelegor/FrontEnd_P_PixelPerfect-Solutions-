@@ -1,0 +1,71 @@
+.jobTitle,
+.name,
+.placeholderImage1 {
+  align-self: stretch;
+  position: relative;
+}
+.placeholderImage1 {
+  max-width: 100%;
+  overflow: hidden;
+  height: 296px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.jobTitle,
+.name {
+  line-height: 150%;
+}
+.name {
+  font-weight: 600;
+}
+.jobTitle {
+  font-size: 18px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content,
+.text,
+.title {
+  align-self: stretch;
+}
+.text {
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.iconLinkedin {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card,
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.card {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+  font-family: Roboto;
+}

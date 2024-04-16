@@ -1,0 +1,277 @@
+.iconRelume {
+  width: 48px;
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heading,
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+}
+.text {
+  font-size: 16px;
+  line-height: 150%;
+}
+.column,
+.sectionTitle {
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.sectionTitle {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.column {
+  flex: 1;
+}
+.column,
+.content,
+.layout228 {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 48px;
+}
+.layout228 {
+  width: 1440px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 32px;
+}
+.subheading {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.heading3 {
+  position: relative;
+  line-height: 120%;
+}
+.content4,
+.heading3,
+.text3 {
+  align-self: stretch;
+}
+.text3 {
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+}
+.content4 {
+  gap: 24px;
+  font-size: 48px;
+}
+.column3,
+.content4,
+.portfolioList,
+.sectionTitle3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sectionTitle3 {
+  width: 768px;
+  gap: 16px;
+}
+.column3,
+.portfolioList {
+  gap: 48px;
+}
+.portfolioList {
+  width: 1312px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.button {
+  position: relative;
+  line-height: 150%;
+}
+.stylesecondarySmallfalse {
+  width: 106px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+.content5 {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  text-align: left;
+  font-size: 24px;
+}
+.content5,
+.portfolio9,
+.sectionTitle4 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.portfolio9 {
+  width: 1440px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  gap: 80px;
+  text-align: center;
+  font-size: 16px;
+}
+.sectionTitle4 {
+  width: 560px;
+  gap: 24px;
+}
+.content6,
+.content7,
+.sectionTitle4,
+.testimonial5 {
+  display: flex;
+  align-items: flex-start;
+}
+.content6 {
+  width: 1280px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 64px;
+  font-size: 20px;
+}
+.content7,
+.testimonial5 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.testimonial5 {
+  width: 1440px;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  gap: 80px;
+}
+.content7 {
+  align-self: stretch;
+  gap: 24px;
+}
+.placeholder {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.styleprimarySmallfalseDa,
+.typedefault {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.typedefault {
+  flex: 1;
+  background-color: #fff;
+  justify-content: flex-start;
+  padding: 12px;
+}
+.styleprimarySmallfalseDa {
+  width: 105px;
+  background-color: #000;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 12px 24px;
+  color: #fff;
+}
+.form {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.byClickingSign {
+  align-self: stretch;
+  position: relative;
+  font-size: 12px;
+  line-height: 150%;
+  color: #000;
+}
+.actions {
+  width: 513px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 0 0;
+  box-sizing: border-box;
+  gap: 16px;
+  font-size: 16px;
+  color: #666;
+}
+.actions,
+.card,
+.column5,
+.cta42,
+.home {
+  display: flex;
+  justify-content: flex-start;
+}
+.column5 {
+  width: 768px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.card,
+.cta42,
+.home {
+  overflow: hidden;
+}
+.card {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 64px;
+  background-image: url(/public/card@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.cta42,
+.home {
+  flex-direction: column;
+}
+.cta42 {
+  width: 1440px;
+  background-color: #fff;
+  align-items: center;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: Roboto;
+}

@@ -1,0 +1,306 @@
+.subheading {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.heading,
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.text {
+  font-size: 18px;
+  line-height: 150%;
+}
+.content2,
+.sectionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content2 {
+  gap: 24px;
+  text-align: left;
+  font-size: 48px;
+}
+.sectionTitle {
+  gap: 16px;
+}
+.text1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 150%;
+}
+.content1,
+.list,
+.listItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listItem {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+}
+.content1,
+.list {
+  align-self: stretch;
+}
+.list {
+  flex-direction: row;
+  padding: 8px 0;
+  gap: 24px;
+  text-align: left;
+  font-size: 48px;
+}
+.content1 {
+  flex-direction: column;
+  gap: 32px;
+}
+.button {
+  position: relative;
+  line-height: 150%;
+}
+.stylesecondarySmallfalse {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+}
+.iconChevronRight {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stylelinkSmallfalseDark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.actions,
+.content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.actions {
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0 0;
+  text-align: left;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.placeholderImageIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 640px;
+  object-fit: cover;
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
+}
+.layout25,
+.sectionTitle1 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.layout25 {
+  width: 1440px;
+  background-color: #fff;
+  overflow: hidden;
+  display: none;
+  align-items: flex-start;
+  padding: 112px 64px;
+  box-sizing: border-box;
+}
+.sectionTitle1 {
+  width: 768px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.placeholderImage1 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 416px;
+  object-fit: cover;
+}
+.content3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.button2,
+.gallery3 {
+  display: flex;
+  align-items: center;
+}
+.gallery3 {
+  width: 1440px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  gap: 80px;
+  font-size: 48px;
+}
+.button2 {
+  border-radius: 50px;
+  border: 1px solid #000;
+  flex-direction: row;
+  justify-content: center;
+  padding: 12px;
+}
+.vectorIcon {
+  width: 20px;
+  position: relative;
+  height: 18.9px;
+}
+.stars {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.quote {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.avatarImageIcon {
+  width: 56px;
+  position: relative;
+  border-radius: 50%;
+  height: 56px;
+  object-fit: cover;
+}
+.avatarContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  height: 62px;
+}
+.logo2ColordarkIcon {
+  width: 140px;
+  position: relative;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatar {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+}
+.avatar,
+.container2,
+.content4 {
+  display: flex;
+  align-items: center;
+}
+.container2 {
+  width: 768px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.content4 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dot,
+.dot1 {
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #000;
+  height: 8px;
+}
+.dot1 {
+  background-color: #ccc;
+}
+.sliderDots {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 9px;
+}
+.container1,
+.portfolio,
+.testimonial10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container1 {
+  align-self: stretch;
+  align-items: center;
+  gap: 48px;
+}
+.portfolio,
+.testimonial10 {
+  overflow: hidden;
+}
+.testimonial10 {
+  width: 1440px;
+  background-color: #fff;
+  align-items: center;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+.portfolio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}

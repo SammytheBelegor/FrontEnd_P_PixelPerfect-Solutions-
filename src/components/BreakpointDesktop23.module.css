@@ -1,0 +1,176 @@
+.subheading {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.heading,
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.text {
+  font-size: 18px;
+  line-height: 150%;
+}
+.content,
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  gap: 24px;
+  font-size: 48px;
+}
+.sectionTitle {
+  width: 768px;
+  gap: 16px;
+}
+.placeholderImageIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 234px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.heading1,
+.text2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.text2 {
+  font-size: 16px;
+  line-height: 150%;
+}
+.tag,
+.tags,
+.text1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 8px;
+}
+.tag,
+.tags {
+  flex-direction: row;
+}
+.tag {
+  background-color: #eee;
+  padding: 4px 8px;
+}
+.tags {
+  align-self: stretch;
+  padding: 16px 0 0;
+  gap: 8px;
+  font-size: 14px;
+}
+.button {
+  position: relative;
+  line-height: 150%;
+}
+.iconChevronRight {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.stylelinkSmallfalseDark {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 24px 0 0;
+  font-size: 16px;
+}
+.actions,
+.content2 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.card,
+.column,
+.content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.card {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 24px;
+}
+.column {
+  flex: 1;
+  align-items: center;
+  gap: 64px;
+}
+.placeholderImageIcon2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 400px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.portfolioList {
+  width: 1312px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.stylesecondarySmallfalse {
+  width: 106px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+.breakpointDesktop,
+.content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 64px;
+  text-align: left;
+  font-size: 24px;
+}
+.breakpointDesktop {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  gap: 80px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}

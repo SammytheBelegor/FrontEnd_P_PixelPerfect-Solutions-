@@ -1,0 +1,114 @@
+.faqs {
+  position: relative;
+  line-height: 120%;
+}
+.content,
+.faqs,
+.text {
+  align-self: stretch;
+}
+.text {
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.button {
+  position: relative;
+  line-height: 150%;
+}
+.stylesecondarySmallfalse {
+  width: 106px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+.sectionTitle {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.divider {
+  align-self: stretch;
+  background-color: #000;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 1px;
+}
+.divider,
+.icon,
+.question {
+  position: relative;
+}
+.question {
+  flex: 1;
+  line-height: 150%;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.accordionItem,
+.title {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.title {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+  gap: 12px;
+}
+.accordionItem {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.accordion {
+  flex: 1;
+  flex-direction: column;
+  font-size: 18px;
+}
+.accordion,
+.breakpointDesktop,
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 80px;
+}
+.breakpointDesktop {
+  width: 1440px;
+  background-color: #fff;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 112px 64px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: Roboto;
+}

@@ -1,0 +1,39 @@
+.iconRelume {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loremIpsumDolor,
+.pageOne {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.pageOne {
+  font-weight: 600;
+}
+.loremIpsumDolor {
+  font-size: 14px;
+}
+.content,
+.menuItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+}
+.menuItem {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 8px 0;
+  gap: 12px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}

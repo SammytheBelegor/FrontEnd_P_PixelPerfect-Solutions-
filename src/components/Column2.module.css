@@ -1,0 +1,73 @@
+.vectorIcon {
+  width: 20px;
+  position: relative;
+  height: 18.9px;
+}
+.stars {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.quote {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.avatarImageIcon {
+  width: 56px;
+  position: relative;
+  border-radius: 50%;
+  height: 56px;
+  object-fit: cover;
+}
+.text {
+  font-weight: 600;
+}
+.text,
+.text1 {
+  position: relative;
+  line-height: 150%;
+}
+.avatarContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  height: 62px;
+}
+.logo2ColordarkIcon {
+  width: 140px;
+  position: relative;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatar,
+.column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 16px;
+}
+.column {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Roboto;
+}

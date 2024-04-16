@@ -1,0 +1,64 @@
+.vectorIcon {
+  width: 20px;
+  position: relative;
+  height: 18.9px;
+}
+.stars {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.quote {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.avatarImageIcon {
+  width: 56px;
+  position: relative;
+  border-radius: 50%;
+  height: 56px;
+  object-fit: cover;
+}
+.nameSurname {
+  font-weight: 600;
+}
+.nameSurname,
+.text {
+  position: relative;
+  line-height: 150%;
+}
+.avatarContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo2ColordarkIcon {
+  width: 140px;
+  position: relative;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatar,
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+}
+.column {
+  flex: 1;
+  overflow: hidden;
+  gap: 32px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Roboto;
+}

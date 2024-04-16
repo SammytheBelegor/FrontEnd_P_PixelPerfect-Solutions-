@@ -1,0 +1,97 @@
+.heading,
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.text {
+  font-size: 18px;
+  line-height: 150%;
+}
+.sectionTitle {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.question {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+}
+.plusIcon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.accordion,
+.accordionItem {
+  align-self: stretch;
+  display: flex;
+}
+.accordionItem {
+  border: 1px solid #000;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 24px;
+}
+.accordion {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  text-align: left;
+  font-size: 18px;
+}
+.heading1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+}
+.content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.button {
+  position: relative;
+  line-height: 150%;
+}
+.stylesecondarySmallfalse {
+  width: 106px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  text-align: left;
+  font-size: 16px;
+}
+.container,
+.content {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 32px;
+}
+.container {
+  width: 768px;
+  gap: 80px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-family: Roboto;
+}

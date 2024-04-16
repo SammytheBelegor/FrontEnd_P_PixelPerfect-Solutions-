@@ -1,0 +1,43 @@
+.divider {
+  align-self: stretch;
+  background-color: #000;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 1px;
+}
+.divider,
+.icon,
+.question {
+  position: relative;
+}
+.question {
+  flex: 1;
+  line-height: 150%;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.accordionItem,
+.title {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.title {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+  gap: 12px;
+}
+.accordionItem {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  font-family: Roboto;
+}
