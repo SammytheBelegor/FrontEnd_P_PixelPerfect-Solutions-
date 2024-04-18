@@ -1,4 +1,4 @@
-![image](https://github.com/SammytheBelegor/FrontEnd_P_PixelPerfect-Solutions-/assets/71520900/a3cf5ade-0558-4166-9688-e63d0af154c3)
+
   # PixelPerfect
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
